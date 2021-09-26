@@ -1,72 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    1. Què és Vanilla JavaScript?
-El Vanilla JavaScript és la versió pura de JavaScript, on bàsicament es programa sense fer servir cap llibreria.
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/custom.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <title>Preguntes GitHub Pages</title>
+  </head>
+  <body>
+    <div>
+        <h1>Preguntes GitHub Pages</h1>
+        <br>
+        <h2>1. Què és Vanilla JavaScript?</h2>
+        <p>
+        El Vanilla JavaScript és la versió pura de JavaScript, on bàsicament es
+        programa sense fer servir cap llibreria.
+        </p>
 
-2. Diferència entre els ECMA Script que pertanyen a JavaScript i a JavaScript Modern.
-Edició 2: Hi va haver canvis editorials per mantenir la especificació completa alineada amb l'estàndart internacional ISO/IEC 16262.
-Edició 3: Es van inplementar expressions regulars, millor gestió dels strings, nou control de declaracions, control d'excepcions amb try/catch, definició més estricta d'errors entre altres millores.
-Edició 4: Aquesta edició va ser abandonada per les diferències polítiques respecte a la complexitat del llenguatge. Moltes de les seves característiques també van ser abandonades.
-Edició 5 (any 2009): Incorpora un mode estricte per proporcionar una millor comprovació d'errors i evitar constructors propensos a errors. També agrega noves característiques com getters i setters, llibreria per al suport de JSON i la reflexió sobre les propietats dels objectes.
-Edició 5.1 (any 2011): S'alinea amb la tercera edició del estàndart internacional ISO/IEC 16262:2011.
-Edició 6 (any 2015): Incloeix canvis importants en la seva sintaxi per aplicacions complexes, es defineixen les classes i mòduls semànticament seguint el mode estricte de l'edició anterior.
-Edició 7 (any 2016): Va ser una breu actualització de la versió 6, des d'aquesta versió s'estalvia tantes línies de codi que resulta més complicat per als programadors a l'hora de voler modificar el programari, i per als navegadors a l'hora de comprendre el codi.
+        <h2>
+        2. Diferència entre els ECMA Script que pertanyen a JavaScript i a
+        JavaScript Modern.
+        </h2>
+        <p>  
+            <li>
+                <b>Edició 2:</b> Hi va haver canvis editorials per mantenir la especificació completa alineada amb l'estàndart internacional ISO/IEC 16262. 
+            </li>
+            <li>
+                <b>Edició 3:</b> Es van inplementar expressions regulars, millor gestió dels strings, nou control de declaracions, control d'excepcions amb try/catch, definició més estricta d'errors entre altres millores. 
+            </li>
+            <li>
+                <b>Edició 4:</b> Aquesta edició va ser abandonada per les diferències polítiques respecte a la complexitat del llenguatge. Moltes de les seves característiques també van ser abandonades. 
+            </li>
+            <li>
+                <b>Edició 5 (any 2009):</b> Incorpora un mode estricte per proporcionar una millor comprovació d'errors i evitar constructors propensos a errors. També agrega noves característiques com getters i setters, llibreria per al suport de JSON i la reflexió sobre les propietats dels objectes. 
+            </li>
+            <li>
+                <b>Edició 5.1 (any 2011):</b> S'alinea amb la tercera edició del estàndart internacional ISO/IEC 16262:2011. 
+            </li>
+            <li>
+                <b>Edició 6 (any 2015):</b> Incloeix canvis importants en la seva sintaxi per aplicacions complexes, es defineixen les classes i mòduls semànticament seguint el mode estricte de l'edició anterior. 
+            </li>
+            <li>
+                <b>Edició 7 (any 2016):</b> Va ser una breu actualització de la versió 6, des d'aquesta versió s'estalvia tantes línies de codi que resulta més complicat per als programadors a l'hora de voler modificar el programari, i per als navegadors a l'hora de comprendre el codi.
+            </li>
+        </p>
 
-3. Qui va crear JavaScript?De quina empresa era?
-El JavaScript el va crear Brendan Eich, que va treballar a Netscape Corporation.
-4. Quina empresa hi ha actualment darrere de JavaScript?
-L'empresa que hi ha darrere de JavaScript és el Netscape Communications Corporation.
+        <h2>3. Qui va crear JavaScript? De quina empresa era?</h2>
+        <p>
+            El JavaScript el va crear Brendan Eich, que va treballar a Netscape Corporation.
+        </p>
 
-5. Què és una arrow function? A quin ES apareix (quin any).
-Una arrow function pertany al ES6 (2015), i ens permet escriure una funció amb una sintaxi més curta.
+        <h2>4. Quina empresa hi ha actualment darrere de JavaScript?</h2>
+        <p>
+            L'empresa que hi ha darrere de JavaScript és el Netscape Communications Corporation.
+        </p>
 
-6. Què és un callback? Posa un exemple.
-La funció callback és una funció que es passa a una altra de manera semblant a un argument. Després és invocada per una funció externa per completar una acció.
-Exemple:
-//La funció fnNom és el callback, que conté el nom d'una persona a l'hora d'iniciar sessió.
+        <h2>5. Què és una arrow function? A quin ES apareix (quin any).</h2>
+        <p>
+            Una arrow function pertany al ES6 (2015), i ens permet escriure una funció amb una sintaxi més curta.
+        </p> 
 
-function fnNom(nom) {
-	console.log("Hola, sóc "+nom);
-}
+        <h2>6. Què és un callback? Posa un exemple.</h2>
+        <p>
+            La funció callback és una funció que es passa a una altra de manera semblant a un argument. Després és invocada per una funció externa per completar una acció. 
+            <h3>Exemple</h3>
+            <pre>
 
-//La funció demanaNom fa que la pàgina web pregunti el nom de l'usuari i el nom s'enregistrarà a fnNom.
+            // La funció fnNom és el callback, que conté el nom d'una persona a l'hora d'iniciar sessió.
 
-function demanaNom(callback) {
-	let nom = prompt("Hola. Com et dius?");
-	callback(nom);
-}
+            function fnNom(nom) {
+                console.log("Hola, sóc "+nom);
+            }
 
-//S'activa la funció demanaNom amb fnNom com el seu paràmetre. D'aquesta manera, demanaNom pot accedir al paràmetre de fnNom i mostrar-lo.
+            // La funció demanaNom fa que la pàgina web pregunti el nom de l'usuari i el nom s'enregistrarà a fnNom.
 
-demanaNom(fnNom);
+            function demanaNom(callback) {
+                let nom = prompt("Hola. Com et dius?");
+                callback(nom);
+            }
+            
+            // S'activa la funció demanaNom amb fnNom com el seu paràmetre. D'aquesta manera, demanaNom pot accedir al paràmetre 
+            // de fnNom i mostrar-lo.
 
-7. Què és una promesa en JavaScript (promise)? Posa un exemple. Explica també la diferència entre la programació síncrona i asíncrona. Posa un exemple.
+            demanaNom(fnNom);
+            </pre>
+        </p>
+        <h2>
+            7. Què és una promesa en JavaScript (promise)? Posa un exemple. Explica també la diferència entre la programació síncrona i asíncrona. Posa un exemple.
+        </h2>  
+            <p>
+            Una promesa és un objecte utilitzat per computacions asíncrones que representa un valor.
+            <h3>Exemple</h3>
+            <br>
+                <pre>
 
-Una promesa és un objecte utilitzat per computacions asíncrones que representa un valor.
-Exemple de promesa:
+            let promesa = new Promise((resoldre,rebutjar) => {
+                
+                // S'utilitza el paràmetre resoldre en cas que la tasca es realitzi amb èxit, i rebutjar si falla.
+                // El setTimeout s'encarrega de simular codi asíncrona.
+                
+                setTimeout(function() {
+                    // Es mostra aquest missatge si la tasca es fa amb èxit.
+                    resoldre("resolt");
+                }, 250); 
+            });
 
-let promesa = new Promise((resoldre,rebutjar) => {
-	// S'utilitza el paràmetre resoldre en cas que la tasca es realitzi amb èxit, i rebutjar si falla.
-	// El setTimeout s'encarrega de simular codi asíncrona.
-	setTimeout(function() {
-		// Es mostra aquest missatge si la tasca es fa amb èxit.
-		resoldre("resolt");
-	}, 250);
-});
-// S'activa la variable promesa mostrant el missatge d'èxit si la seva tasca s'ha finalitzat correctament.
-promesa.then((missatge) => {
-	console.log("El procés està "+missatge);
-});
+            // S'activa la variable promesa mostrant el missatge d'èxit si la seva tasca s'ha finalitzat correctament.
 
-A la programació síncrona, cadascuna de les instruccions espera a l'anterior per executar-se, mentre que a la programació asíncrona no existeix cap sincronia entre les instruccions per poder executar-se.
+            promesa.then((missatge) => {
+                console.log("El procés està "+missatge);
+            });
+                </pre>
+                A la programació síncrona, cadascuna de les instruccions espera a l'anterior per executar-se, mentre que a la programació asíncrona no existeix cap sincronia entre les instruccions per poder executar-se.
+            </p>
+        
+    </div> 
     <div class="container"></div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
